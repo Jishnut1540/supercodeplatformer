@@ -1,11 +1,11 @@
 [gd_scene format=4 uid="uid://cn0wk31ptc66e"]
 
 [ext_resource type="Script" uid="uid://v6eqsmnc3o05" path="res://character_body_2d.gd" id="1_h2yge"]
-[ext_resource type="Texture2D" uid="uid://hphaurtcahyw" path="res://icon.svg" id="1_ig7tw"]
+[ext_resource type="Texture2D" uid="uid://nkedhjm4h5wg" path="res://download-removebg-preview.png" id="2_h2yge"]
 [ext_resource type="Texture2D" uid="uid://cih26hq743ntw" path="res://green.png" id="3_1bvp3"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_db7gv"]
-size = Vector2(73, 86)
+size = Vector2(78, 109)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lquwl"]
 texture = ExtResource("3_1bvp3")
@@ -2184,10 +2184,10 @@ script = ExtResource("1_h2yge")
 [node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D" unique_id=823632861]
 position = Vector2(192.5, 451)
 scale = Vector2(0.5703125, 0.6875)
-texture = ExtResource("1_ig7tw")
+texture = ExtResource("2_h2yge")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=1879386039]
-position = Vector2(193.5, 451)
+position = Vector2(185, 461.5)
 shape = SubResource("RectangleShape2D_db7gv")
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=1229332999]
